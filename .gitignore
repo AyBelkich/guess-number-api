@@ -1,0 +1,9 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+
+# Runtime data
+scores.txt
