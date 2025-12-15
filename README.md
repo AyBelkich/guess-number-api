@@ -10,9 +10,7 @@ It’s a FastAPI application that exposes HTTP endpoints to:
 
 I originally built this as a CLI Python game, then refactored the logic into an HTTP API so it could be used by different clients (like a web frontend). I used an AI assistant (ChatGPT) a lot for explanations, refactoring, and debugging, but I worked through the structure and logic myself step by step.
 
----
-
-## ✨ Features
+## Features
 
 - **Start game with difficulty & player name**
   - Difficulty levels:
@@ -50,9 +48,7 @@ I originally built this as a CLI Python game, then refactored the logic into an 
 - **CORS support**
   - CORS middleware is enabled so a browser frontend can call the API from a different origin (e.g. from `index.html` opened locally).
 
----
-
-## 🧱 Tech Stack
+## Tech Stack
 
 - **Language:** Python 3
 - **Framework:** FastAPI
@@ -67,15 +63,12 @@ I originally built this as a CLI Python game, then refactored the logic into an 
   - Azure Virtual Machine (Ubuntu)
   - Azure App Service – Web App for Containers
 
----
-
-## 📁 Project Structure
+## Project Structure
 
 Typical structure of the API project:
 
-```text
-guessnumber_api/
-├─ main.py          # FastAPI app
-├─ requirements.txt # Python dependencies
-├─ Dockerfile       # Container build instructions
-└─ scores.txt       # Created/updated at runtime to store stats
+  guessnumber_api/
+  ├─ main.py          # FastAPI app
+  ├─ requirements.txt # Python dependencies
+  ├─ Dockerfile       # Container build instructions
+  └─ scores.txt       # Created/updated at runtime to store stats
